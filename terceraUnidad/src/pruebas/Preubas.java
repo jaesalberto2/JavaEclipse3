@@ -1,0 +1,51 @@
+package pruebas;
+
+import java.awt.BorderLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+
+public class Preubas {
+
+	public static void main(String[] args) {
+		 JFrame ventana = new JFrame("Mi Interfaz Gráfica");
+	        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	        ventana.setSize(300, 200);
+
+	        // Crear un campo de entrada de texto
+	        JTextField campoTexto = new JTextField();
+	        campoTexto.setBounds(20, 20, 200, 30);
+	        JTextField campoTexto2 = new JTextField();
+	        campoTexto.setBounds(20, 20, 200, 30);
+
+	        // Crear un botón
+	        JButton boton = new JButton("Aceptar");
+	        boton.setBounds(20, 60, 100, 30);
+
+	        // Agregar un ActionListener al botón
+	        boton.addActionListener(new ActionListener() {
+	            @Override
+	            public void actionPerformed(ActionEvent e) {
+	                String textoIngresado = campoTexto.getText();
+	
+	                // Realiza alguna acción con el texto ingresado
+	                System.out.println("Texto ingresado: " + textoIngresado);
+	            }
+	        });
+
+	        // Agregar los componentes al JFrame
+	        ventana.add(campoTexto);
+	        ventana.add(boton);
+
+	        // Mostrar la ventana
+	        ventana.setLayout(null);
+	        ventana.setVisible(true);
+	}
+
+}

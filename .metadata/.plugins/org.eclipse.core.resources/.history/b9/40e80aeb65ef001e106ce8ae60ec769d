@@ -1,0 +1,67 @@
+package canino;
+
+import javax.swing.JOptionPane;
+
+public class PruebaCanino {
+
+	public static void main(String[] args) {
+		Propietario propietario=new Propietario(null,null,null,null);
+		String nombrePropietario,telefono,direccion,correo;
+		
+		Competencia competencia=new Competencia(null,null,null,0);
+		String lugar,categoria,fecha;
+		double premio;
+		
+		Canino c1=new Canino(propietario,competencia,null,null,null,null,null);
+		String nombre,raza,altura,peso,nacimiento;
+		
+		//Pedir datos de Canino
+		c1.setNombre(JOptionPane.showInputDialog(null,""
+				+ "Ingresa Nombre","Canino",JOptionPane.INFORMATION_MESSAGE));
+		JOptionPane.showMessageDialog(null, c1.getNombre());
+		c1.setRaza(JOptionPane.showInputDialog(null,""
+				+ "Ingresa Raza","Canino",JOptionPane.INFORMATION_MESSAGE));
+		c1.setAltura(JOptionPane.showInputDialog(null,""
+				+ "Ingresa Altura","Canino",JOptionPane.INFORMATION_MESSAGE));
+		c1.setPeso(JOptionPane.showInputDialog(null,""
+				+ "Ingresa Peso","Canino",JOptionPane.INFORMATION_MESSAGE));
+		c1.setNacimiento(JOptionPane.showInputDialog(null,""
+				+ "Ingresa Nacimiento","Canino",JOptionPane.INFORMATION_MESSAGE));
+		//pedir datos de Propietario
+		//String nombrePropietario,telefono,direccion,correo;
+		c1.propietario.setNombre(JOptionPane.showInputDialog(null,""
+				+ "Ingresa Nombre","Propietario"
+						+ "",JOptionPane.INFORMATION_MESSAGE));
+		c1.propietario.setTelefono(JOptionPane.showInputDialog(null,""
+				+ "Ingresa Telefono","Propietario"
+						+ "",JOptionPane.INFORMATION_MESSAGE));
+		c1.propietario.setDireccion(JOptionPane.showInputDialog(null,""
+				+ "Ingresa Direccion","Propietario"
+						+ "",JOptionPane.INFORMATION_MESSAGE));
+		c1.propietario.setCorreo(JOptionPane.showInputDialog(null,""
+				+ "Ingresa Correo","Propietario"
+						+ "",JOptionPane.INFORMATION_MESSAGE));
+		//Ingresar datos de Competencia}
+		//String lugar,categoria,fecha;
+		//double premio;
+		c1.competencia.setCategoria(JOptionPane.showInputDialog(null,""
+				+ "Ingresa Categoria","Competencia"
+						+ "",JOptionPane.INFORMATION_MESSAGE));
+		c1.competencia.setLugar(JOptionPane.showInputDialog(null,""
+				+ "Ingresa Lugar","Competencia"
+						+ "",JOptionPane.INFORMATION_MESSAGE));
+		c1.competencia.setFecha(JOptionPane.showInputDialog(null,""
+				+ "Ingresa Fecha","Competencia"
+						+ "",JOptionPane.INFORMATION_MESSAGE));
+		c1.competencia.setPremio(Double.parseDouble(JOptionPane.showInputDialog(null,""
+				+ "Ingresa Premio","Competencia"
+						+ "",JOptionPane.INFORMATION_MESSAGE)));
+		
+		
+		JOptionPane.showMessageDialog(null, c1.toString(),"Datos de Canino"
+				+ "",JOptionPane.INFORMATION_MESSAGE);
+
+
+	}
+
+}

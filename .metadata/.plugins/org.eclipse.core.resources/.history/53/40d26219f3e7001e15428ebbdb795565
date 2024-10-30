@@ -1,0 +1,17 @@
+package vehiculo;
+
+
+
+public class Prueba {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Ingresa i = null;
+		Imprime im = null;
+		
+		i.IngresaDatos();
+		
+
+	}
+
+}

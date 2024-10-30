@@ -1,0 +1,15 @@
+package vehiculo;
+
+import javax.swing.JOptionPane;
+
+public class Imprime {
+	
+
+public String ImprimeDatos(Vehiculo v) {
+	
+	return "\tDatos del Vehiculo"+v.toString()+"\n\n\tDatos del chofer"
+			+ ""+v.chofer.toString()+"\n\n\tDatos de la Empresa"
+					+ ""+v.empresa.toString();
+}
+
+}

@@ -1,0 +1,19 @@
+package serializable;
+
+import javax.swing.JOptionPane;
+
+public class Ingresa {
+	public void ingresaVehiculo() {
+		String marca,modelo,matricula;
+		marca = JOptionPane.showInputDialog(null,"Ingresa Marca"
+				+ "","Deportivo",JOptionPane.INFORMATION_MESSAGE);
+		modelo = JOptionPane.showInputDialog(null,"Ingresa Modelo"
+				+ "","Deportivo",JOptionPane.INFORMATION_MESSAGE);
+		matricula = JOptionPane.showInputDialog(null,"Ingresa Matricula"
+				+ "","Deportivo",JOptionPane.INFORMATION_MESSAGE);
+		//Instanciar a la clase Deportivo
+		vehiculo v = new vehiculo(marca,modelo,matricula);
+		
+	}
+
+}

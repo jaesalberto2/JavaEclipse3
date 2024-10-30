@@ -1,0 +1,22 @@
+package pruebas;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+
+public class Preubas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String nom = JOptionPane.showInputDialog("Nombre:");
+		String ap = JOptionPane.showInputDialog("Apellido:");
+		String dni = JOptionPane.showInputDialog("DNI:");
+		String tel = JOptionPane.showInputDialog("Teléfono:");
+		
+
+	}
+
+}

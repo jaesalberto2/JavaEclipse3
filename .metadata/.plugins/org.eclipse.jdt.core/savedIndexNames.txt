@@ -1,0 +1,19 @@
+INDEX VERSION 1.134+C:\Users\ALBERTO\Documents\herramientas\eclipse3\.metadata\.plugins\org.eclipse.jdt.core
+4227135037.index
+3384251127.index
+3264381401.index
+2393563997.index
+2157166862.index
+2526831662.index
+447683537.index
+1260248569.index
+1483771463.index
+1870360790.index
+2398580703.index
+2722852791.index
+1440621103.index
+1591802623.index
+3974013149.index
+2961752439.index
+1865797976.index
+1934745937.index

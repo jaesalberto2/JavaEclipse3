@@ -1,0 +1,14 @@
+package ExamenAutomovil;
+
+public class Prueba {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Ingresa i = null;
+		Imprime im = null;
+Automovil a1= i.ingresa();
+im.Imprime(a1);
+
+	}
+
+}

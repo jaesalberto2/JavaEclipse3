@@ -1,0 +1,32 @@
+package pruebas;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+
+public class Preubas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JOptionPane.showInputDialog(null,"Ingresa dato","Hola mundo"
+				+ "",JOptionPane.INFORMATION_MESSAGE);
+		
+		JFrame frame = new JFrame("Tabla de Datos");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		String[] columnas = {"Nombre", "Edad", "País"};
+		Object[][] datos = {
+		{"Ana", 25, "España"},
+		{"Carlos", 30, "México"},
+		{"Elena", 22, "Argentina"}
+		};
+		JTable miTabla = new JTable(datos, columnas);
+		JScrollPane scrollPane = new JScrollPane(miTabla);
+		frame.add(scrollPane, BorderLayout.CENTER);
+		frame.pack();
+		frame.setVisible(true);
+	}
+
+}

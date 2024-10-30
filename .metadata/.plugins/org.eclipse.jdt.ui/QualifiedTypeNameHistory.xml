@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="asociacion_operaciones.Operaciones"/>
+    <fullyQualifiedTypeName name="asociacion_menumoneda.Menu"/>
+    <fullyQualifiedTypeName name="asociacion_temperatura.Temperatura"/>
+    <fullyQualifiedTypeName name="asociacion_menutemperatura.Menu"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.JobPrioritySupported"/>
+    <fullyQualifiedTypeName name="pokemon.Entrenador"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextArea"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="herencia_vehiculo.Vehiculo"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="java.io.EOFException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="animal2.Ingresa"/>
+    <fullyQualifiedTypeName name="animal2.Animal"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,15 @@
+package composicion_vehiculo;
+
+import javax.swing.JOptionPane;
+
+public class PruebaVehiculo {
+
+	public static void main(String[] args) {
+		// Instanciar a la clase Vehiculo
+		Vehiculo coche1= new Vehiculo("Seat", "Leon"
+				+ "", "Rojo", "ADF-123-A", 120000.00);
+		JOptionPane.showMessageDialog(null, coche1);
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package ExamenAutomovil;
+
+import javax.swing.JOptionPane;
+
+public class Menu {
+	
+	public void menu() {
+		int opc;
+		do {
+		opc =Integer.parseInt(JOptionPane.showInputDialog(null,"1.- Ingresar datos\n2.-imprimir datos\n3.-Salir","Menu",JOptionPane.INFORMATION_MESSAGE));
+		
+		
+		
+		}while(opc!=3);
+		}
+}

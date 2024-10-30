@@ -1,0 +1,11 @@
+package animal2;
+
+
+
+public class Imprime {
+	
+	public String imprimeCanino(Canino c) {
+		return c.toString();
+	}
+
+}

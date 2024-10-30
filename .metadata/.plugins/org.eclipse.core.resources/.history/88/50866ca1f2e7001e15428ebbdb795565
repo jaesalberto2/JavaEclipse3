@@ -1,0 +1,14 @@
+package vehiculo;
+
+import javax.swing.JTextArea;
+
+public class Prueba {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		JTextArea k = new JTextArea();
+
+	}
+
+}

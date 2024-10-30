@@ -1,0 +1,15 @@
+package ExamenAutomovil;
+
+public class Prueba {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Ingresa i = new Ingresa() ;
+		Imprime im = new Imprime() ;
+		
+Automovil a1= i.ingresa();
+im.imprime(a1);
+
+	}
+
+}

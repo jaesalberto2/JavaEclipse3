@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;SegundoSemestre/src/asociacion_figuras&apos;&#x0D;&#x0A;- Original project: &apos;SegundoSemestre&apos;&#x0D;&#x0A;- Destination element: &apos;SegundoSemestre/src/asociacion_figuras&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     asociacion_perimetros.Perimetro.java&#x0D;&#x0A;     asociacion_perimetros.Areas.java" description="Copy compilation units" destination="/src&lt;asociacion_figuras" element1="/src&lt;asociacion_perimetros{Perimetro.java" element2="/src&lt;asociacion_perimetros{Areas.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1707486395948" units="2" version="1.0"/>
+</session>

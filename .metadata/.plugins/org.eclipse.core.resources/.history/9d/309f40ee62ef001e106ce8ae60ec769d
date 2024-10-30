@@ -1,0 +1,14 @@
+package canino;
+
+public class PruebaCanino {
+
+	public static void main(String[] args) {
+		Propietario propietario;
+		Canino canino = new Canino("Zacatecas","chihuahua","15/04/2024",4565);
+		String nombre,raza,altura,peso,nacimiento;
+		
+		Canino c1 = new Canino()
+
+	}
+
+}

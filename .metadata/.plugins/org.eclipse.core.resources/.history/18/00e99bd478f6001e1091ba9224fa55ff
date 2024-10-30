@@ -1,0 +1,17 @@
+package ExamenAutomovil;
+
+public class Ingresa {
+
+	Public Automovil Public ingresa() {
+		String name, apellido,edad,escuderia, puntaje,email,patrocinador;
+		Piloto piloto = new Piloto(name, apellido,edad,escuderia, puntaje,email,patrocinador);
+	
+		String nameE,apellidoE,edadE,sexo,phone,emailE,direccion;
+		Entrenador entrenador=new Entrenador(name,apellido,edad,sexo,phone,email,direccion);
+		
+		
+		String String motor,color,numero,velocidad,modelo,fabricante,campeonatos;
+		Automovil automovil = new Automovil(piloto,entrenador,String motor,color,numero,velocidad,modelo,fabricante,campeonatos);
+		return automovil;
+	}
+}

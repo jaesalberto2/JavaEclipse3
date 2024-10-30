@@ -1,0 +1,11 @@
+package sobrecargaPunto;
+
+public class PruebaPunto3D {
+	public static void main(String[] args)
+	{
+	Punto3D p = new Punto3D();
+	Punto3D p1 = new Punto3D();
+	System.out.println(p.toString());
+	}
+
+}

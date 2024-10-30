@@ -1,0 +1,72 @@
+package canino;
+
+public class Canino {
+	Propietario propietario;
+	Competencia competencia;
+	String nombre,raza,altura,peso,nacimiento;
+
+	public Canino(Propietario propietario, Competencia competencia, String nombre, String raza, String altura,
+			String peso, String nacimiento) {
+		super();
+		this.propietario = propietario;
+		this.competencia = competencia;
+		this.nombre = nombre;
+		this.raza = raza;
+		this.altura = altura;
+		this.peso = peso;
+		this.nacimiento = nacimiento;
+	}
+	public Propietario getPropietario() {
+		return propietario;
+	}
+	public void setPropietario(Propietario propietario) {
+		this.propietario = propietario;
+	}
+	public Competencia getCompetencia() {
+		return competencia;
+	}
+	public void setCompetencia(Competencia competencia) {
+		this.competencia = competencia;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getRaza() {
+		return raza;
+	}
+	public void setRaza(String raza) {
+		this.raza = raza;
+	}
+	public String getAltura() {
+		return altura;
+	}
+	public void setAltura(String altura) {
+		this.altura = altura;
+	}
+	public String getPeso() {
+		return peso;
+	}
+	public void setPeso(String peso) {
+		this.peso = peso;
+	}
+	public String getNacimiento() {
+		return nacimiento;
+	}
+	public void setNacimiento(String nacimiento) {
+		this.nacimiento = nacimiento;
+	}
+	@Override
+	public String toString() {
+		return "\nNombre : " + nombre + "\nRaza : "
+				+ raza + "\nAltura : " + altura + "\nPeso : " + peso + ""
+				+ "\nNacimiento : " + nacimiento + "\n\n"+" Propietario : \n"
+				+ "" + propietario + "\n\nCompetencia : " + competencia ;
+	}
+	
+	
+	
+	
+}

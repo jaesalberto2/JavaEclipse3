@@ -1,0 +1,28 @@
+package ExamenAutomovil;
+
+import javax.swing.JOptionPane;
+
+public class Menu {
+	
+	public void menu() {
+		int opc;
+		do {
+		opc =Integer.parseInt(JOptionPane.showInputDialog(null,"1.- Ingresar datos\n2.-imprimir datos\n3.-Salir","Menu",JOptionPane.INFORMATION_MESSAGE));
+		
+		switch (opc) {
+		case 1:
+			Ingresa i = new Ingresa() ;
+			
+			
+	Automovil a1= i.ingresa();
+
+			break;
+		case 2:
+			{Imprime im = new Imprime() ;
+			im.imprime(a1);}
+		default:
+			break;
+		}
+		}while(opc!=3);
+		}
+}

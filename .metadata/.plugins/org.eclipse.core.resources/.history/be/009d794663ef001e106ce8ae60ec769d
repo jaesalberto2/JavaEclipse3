@@ -1,0 +1,23 @@
+package canino;
+
+public class PruebaCanino {
+
+	public static void main(String[] args) {
+		Propietario propietario=new Propietario(null,null,null,null);
+		String nombrePropietario,telefono,direccion,correo;
+		
+		Competencia competencia=new Competencia(null,null,null,0);
+		String lugar,categoria,fecha;
+		double premio;
+		
+		Canino c1=new Canino(propietario,competencia,null,null,null,null,null);
+
+		String nombre,raza,altura,peso,nacimiento;
+		
+		
+		
+
+
+	}
+
+}

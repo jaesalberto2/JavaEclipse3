@@ -1,0 +1,8 @@
+package ExamenAutomovil;
+
+public class Imprime {
+	
+	public String Imprime(Automovil a) {
+		return a.toString(); }
+
+}
